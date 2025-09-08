@@ -1,0 +1,149 @@
+{
+  "designers": [
+    {
+      "id": 1,
+      "name": "Sarah Johnson",
+      "specialty": "Modern & Contemporary Interiors",
+      "experience": 8,
+      "cost": "Pkr15000",
+      "image": "images/designers/sarah.jpg",
+      "bio": "Sarah is a passionate interior designer with over 8 years of experience in creating stunning modern and contemporary living spaces. She specializes in minimalist designs that maximize functionality while maintaining aesthetic appeal.",
+      "portfolio": ["images/designs/creative_office.png" , "images/designs/dressing_room.png"],
+      "contact": {
+        "email": "sarah.johnson@homestyler.com",
+        "phone": "+1 (555) 123-4567",
+        "location": "New York, NY"
+      },
+      "rating": 4.9,
+      "reviews": 127,
+      "certifications": ["NCIDQ Certified", "LEED AP Interior Design"]
+    },
+    {
+      "id": 2,
+      "name": "Michael Chen",
+      "specialty": "Luxury & Elegant Designs",
+      "experience": 12,
+      "cost": "Pkr20000",
+      "image": "images/designers/michael.jpg",
+      "bio": "Michael brings over 12 years of expertise in luxury interior design. His elegant approach combines classic elements with modern sophistication, creating timeless spaces that exude comfort and style.",
+      "portfolio": ["images/designs/creative_office.png" , "images/designs/dressing_room.png"],
+      "contact": {
+        "email": "michael.chen@homestyler.com",
+        "phone": "+1 (555) 234-5678",
+        "location": "Los Angeles, CA"
+      },
+      "rating": 4.8,
+      "reviews": 89,
+      "certifications": ["ASID Professional Member", "Certified Interior Designer"]
+    },
+    {
+      "id": 3,
+      "name": "Emma Davis",
+      "specialty": "Urban & Industrial Designs",
+      "experience": 6,
+      "cost": "Pkr12000",
+      "image": "images/designers/emma.jpg",
+      "bio": "Emma specializes in urban and industrial design aesthetics, creating spaces that reflect the energy and character of city living. Her designs often feature exposed elements, raw materials, and bold architectural features.",
+      "portfolio": ["images/designs/creative_office.png" , "images/designs/dressing_room.png"],
+      "contact": {
+        "email": "emma.davis@homestyler.com",
+        "phone": "+1 (555) 345-6789",
+        "location": "Chicago, IL"
+      },
+      "rating": 4.7,
+      "reviews": 64,
+      "certifications": ["IIDA Professional Member", "Green Building Certified"]
+    },
+    {
+      "id": 4,
+      "name": "David Wilson",
+      "specialty": "Kitchen & Culinary Spaces",
+      "experience": 10,
+      "cost": "Pkr17500",
+      "image": "images/designers/david.jpg",
+      "bio": "David is a kitchen design specialist with 10 years of experience creating functional and beautiful culinary spaces. He understands the importance of workflow, storage, and aesthetics in kitchen design.",
+      "portfolio": ["images/designs/creative_office.png" , "images/designs/dressing_room.png"],
+      "contact": {
+        "email": "david.wilson@homestyler.com",
+        "phone": "+1 (555) 456-7890",
+        "location": "Seattle, WA"
+      },
+      "rating": 4.9,
+      "reviews": 156,
+      "certifications": ["NKBA Certified Kitchen Designer", "CAPS Certified"]
+    },
+    {
+      "id": 5,
+      "name": "Lisa Anderson",
+      "specialty": "Residential & Family Homes",
+      "experience": 9,
+      "cost": "Pkr14000",
+      "image": "images/designers/lisa.jpg",
+      "bio": "Lisa focuses on creating warm, functional family homes that balance style with practicality. Her designs consider the needs of all family members while maintaining a cohesive aesthetic throughout the home.",
+      "portfolio": ["images/designs/creative_office.png" , "images/designs/dressing_room.png"],
+      "contact": {
+        "email": "lisa.anderson@homestyler.com",
+        "phone": "+1 (555) 567-8901",
+        "location": "Austin, TX"
+      },
+      "rating": 4.8,
+      "reviews": 98,
+      "certifications": ["ASID Allied Member", "Universal Design Certified"]
+    },
+    {
+      "id": 6,
+      "name": "Robert Taylor",
+      "specialty": "Commercial & Office Spaces",
+      "experience": 15,
+      "cost": "Pkr25000",
+      "image": "images/designers/robert.jpg",
+      "bio": "Robert is an expert in commercial interior design with 15 years of experience creating productive and inspiring office environments. He specializes in workplace design that enhances productivity and employee well-being.",
+      "portfolio": ["images/designs/creative_office.png" , "images/designs/dressing_room.png"],
+      "contact": {
+        "email": "robert.taylor@homestyler.com",
+        "phone": "+1 (555) 678-9012",
+        "location": "Boston, MA"
+      },
+      "rating": 4.9,
+      "reviews": 203,
+      "certifications": ["NCIDQ Certified", "WELL AP", "LEED AP Interior Design"]
+    },
+    {
+      "id": 7,
+      "name": "Jennifer Lee",
+      "specialty": "Bedroom & Personal Spaces",
+      "experience": 7,
+      "cost": "Pkr13000",
+      "image": "images/designers/jennifer.jpg",
+      "bio": "Jennifer specializes in creating peaceful and personalized bedroom spaces that serve as perfect retreats. Her designs focus on comfort, relaxation, and personal expression through thoughtful space planning and material selection.",
+      "portfolio": ["images/designs/creative_office.png" , "images/designs/dressing_room.png"],
+      "contact": {
+        "email": "jennifer.lee@homestyler.com",
+        "phone": "+1 (555) 789-0123",
+        "location": "Miami, FL"
+      },
+      "rating": 4.7,
+      "reviews": 75,
+      "certifications": ["IIDA Professional Member", "Feng Shui Certified"]
+    },
+    {
+      "id": 8,
+      "name": "Mark Thompson",
+      "specialty": "Bathroom & Spa Design",
+      "experience": 11,
+      "cost": "Pkr18000",
+      "image": "images/designers/mark.jpg",
+      "bio": "Mark creates luxurious bathroom and spa environments that transform daily routines into relaxing experiences. His expertise in plumbing, lighting, and materials ensures both beauty and functionality.",
+      "portfolio": ["images/designs/creative_office.png" , "images/designs/dressing_room.png"],
+      "contact": {
+        "email": "mark.thompson@homestyler.com",
+        "phone": "+1 (555) 890-1234",
+        "location": "San Francisco, CA"
+      },
+      "rating": 4.8,
+      "reviews": 112,
+      "certifications": ["NKBA Certified Bathroom Designer", "Universal Design Certified"]
+    }
+  ]
+}
+

@@ -1,0 +1,455 @@
+{
+  "designs": [
+    {
+      "id": 1,
+      "title": "Modern Minimalist Living Room",
+      "category": "living_room",
+      "trend": "contemporary",
+      "image": "images/designs/Modern Minimalist Living Room.png",
+      "description": "A sleek and modern living room design featuring clean lines, neutral colors, and minimalist furniture. Perfect for those who appreciate simplicity and elegance.",
+      "cost": "Pkr15000",
+      "products": [1, 2, 3, 4],
+      "productDetails": [
+        {"name": "Modern Sectional Sofa", "price": "Pkr2500"},
+        {"name": "Glass Coffee Table", "price": "Pkr800"},
+        {"name": "Contemporary Floor Lamp", "price": "Pkr350"},
+        {"name": "Decorative Wall Art", "price": "Pkr200"}
+      ],
+      "rating": 4.8,
+      "designer": "Sarah Johnson"
+    },
+    {
+      "id": 2,
+      "title": "Luxurious Contemporary Living Space",
+      "category": "living_room",
+      "trend": "elegant",
+      "image": "images/designs/Luxurious Contemporary Living Space.png",
+      "description": "An elegant living room with sophisticated furniture, warm lighting, and premium materials that create a luxurious atmosphere.",
+      "cost": "Pkr25000",
+      "products": [5, 6, 7, 8],
+      "productDetails": [
+        {"name": "Luxury Leather Sofa", "price": "Pkr4500"},
+        {"name": "Marble Dining Table", "price": "Pkr3200"},
+        {"name": "Crystal Chandelier", "price": "Pkr1800"},
+        {"name": "Persian Area Rug", "price": "Pkr1200"}
+      ],
+      "rating": 4.9,
+      "designer": "Michael Chen"
+    },
+    {
+      "id": 3,
+      "title": "Urban Modern Living Room",
+      "category": "living_room",
+      "trend": "contemporary",
+      "image": "images/designs/Urban Modern Living Room.png",
+      "description": "A contemporary urban living space with large windows, modern furniture, and a perfect balance of comfort and style. Best in budget",
+      "cost": "Pkr18000",
+      "products": [9, 10, 11, 12],
+      "productDetails": [
+        {"name": "Ergonomic Office Chair", "price": "Pkr650"},
+        {"name": "Modern Side Table", "price": "Pkr450"},
+        {"name": "LED Table Lamp", "price": "Pkr180"},
+        {"name": "Decorative Throw Pillows", "price": "Pkr120"}
+      ],
+      "rating": 4.7,
+      "designer": "Emma Davis"
+    },
+    {
+      "id": 4,
+      "title": "Modern Kitchen with Island",
+      "category": "kitchen",
+      "trend": "contemporary",
+      "image": "images/designs/Modern Kitchen with Island.png",
+      "description": "A spacious modern kitchen featuring a large island, white cabinets, and state-of-the-art appliances for the perfect cooking experience.",
+      "cost": "Pkr35000",
+      "products": [13, 14, 15, 16],
+      "productDetails": [
+        {"name": "Kitchen Island", "price": "Pkr2800"},
+        {"name": "Stainless Steel Refrigerator", "price": "Pkr2200"},
+        {"name": "Quartz Countertop", "price": "Pkr3500"},
+        {"name": "Under-Cabinet Lighting", "price": "Pkr280"}
+      ],
+      "rating": 4.9,
+      "designer": "David Wilson"
+    },
+    {
+      "id": 5,
+      "title": "Elegant Kitchen Design",
+      "category": "kitchen",
+      "trend": "elegant",
+      "image": "images/designs/Elegant Kitchen Design.png",
+      "description": "An elegant kitchen with premium finishes, marble countertops, and sophisticated lighting that combines functionality with luxury.",
+      "cost": "Pkr45000",
+      "products": [17, 18, 19, 20],
+      "productDetails": [
+        {"name": "Custom Kitchen Cabinets", "price": "Pkr8500"},
+        {"name": "Farmhouse Kitchen Sink", "price": "Pkr850"},
+        {"name": "Marble Backsplash", "price": "Pkr1200"},
+        {"name": "Pendant Light Fixtures", "price": "Pkr650"}
+      ],
+      "rating": 4.8,
+      "designer": "Lisa Anderson"
+    },
+    {
+      "id": 6,
+      "title": "Contemporary Kitchen Space",
+      "category": "kitchen",
+      "trend": "contemporary",
+      "image": "images/designs/Contemporary Kitchen Space.png",
+      "description": "A contemporary kitchen design with sleek cabinets, modern appliances, and an open layout perfect for entertaining.",
+      "cost": "Pkr28000",
+      "products": [21, 22, 23, 24],
+      "productDetails": [
+        {"name": "Platform Bed Frame", "price": "Pkr1200"},
+        {"name": "Memory Foam Mattress", "price": "Pkr1800"},
+        {"name": "Bedroom Dresser", "price": "Pkr950"},
+        {"name": "Bedside Table Lamps", "price": "Pkr320"}
+      ],
+      "rating": 4.6,
+      "designer": "Robert Taylor"
+    },
+    {
+      "id": 7,
+      "title": "Modern Master Bedroom",
+      "category": "bedroom",
+      "trend": "contemporary",
+      "image": "images/designs/Modern Master Bedroom.png",
+      "description": "A serene modern bedroom with comfortable furniture, soft lighting, and a calming color palette for the perfect retreat.",
+      "cost": "Pkr12000",
+      "products": [25, 26, 27, 28],
+      "productDetails": [
+        {"name": "Bathroom Vanity", "price": "Pkr2200"},
+        {"name": "Rainfall Shower Head", "price": "Pkr450"},
+        {"name": "Freestanding Bathtub", "price": "Pkr3200"},
+        {"name": "Bathroom Mirror", "price": "Pkr680"}
+      ],
+      "rating": 4.7,
+      "designer": "Jennifer Lee"
+    },
+    {
+      "id": 8,
+      "title": "Luxury Bedroom Suite",
+      "category": "bedroom",
+      "trend": "elegant",
+      "image": "images/designs/Luxury Bedroom Suite.png",
+      "description": "An elegant bedroom suite with premium bedding, sophisticated furniture, and luxurious finishes for ultimate comfort.",
+      "cost": "Pkr22000",
+      "products": [29, 30, 31, 32],
+      "productDetails": [
+        {"name": "King Size Platform Bed", "price": "Pkr2800"},
+        {"name": "Luxury Memory Foam Mattress", "price": "Pkr2500"},
+        {"name": "Walk-in Closet System", "price": "Pkr4500"},
+        {"name": "Bedroom Chandelier", "price": "Pkr1200"}
+      ],
+      "rating": 4.9,
+      "designer": "Mark Thompson"
+    },
+    {
+      "id": 9,
+      "title": "Contemporary Bathroom",
+      "category": "bathroom",
+      "trend": "contemporary",
+      "image": "images/designs/Contemporary Bathroom.png",
+      "description": "A modern bathroom with clean lines, premium fixtures, and a spa-like atmosphere for daily relaxation.",
+      "cost": "Pkr20000",
+      "products": [33, 34, 35, 36],
+      "productDetails": [
+        {"name": "Double Vanity", "price": "Pkr3200"},
+        {"name": "Walk-in Shower", "price": "Pkr2800"},
+        {"name": "Heated Towel Rack", "price": "Pkr450"},
+        {"name": "LED Mirror", "price": "Pkr680"}
+      ],
+      "rating": 4.8,
+      "designer": "Amanda White"
+    },
+    {
+      "id": 10,
+      "title": "Elegant Bathroom Design",
+      "category": "bathroom",
+      "trend": "elegant",
+      "image": "images/designs/Elegant Bathroom Design.png",
+      "description": "An elegant bathroom featuring marble finishes, sophisticated lighting, and premium fixtures for a luxurious experience.",
+      "cost": "Pkr30000",
+      "products": [37, 38, 39, 40],
+      "productDetails": [
+        {"name": "Marble Vanity Top", "price": "Pkr2500"},
+        {"name": "Luxury Bathtub", "price": "Pkr4200"},
+        {"name": "Premium Shower System", "price": "Pkr1800"},
+        {"name": "Designer Lighting", "price": "Pkr950"}
+      ],
+      "rating": 4.9,
+      "designer": "Christopher Brown"
+    },
+    {
+      "id": 11,
+      "title": "Elegant Formal Dining Room",
+      "category": "dining_room",
+      "trend": "elegant",
+      "image": "images/designs/elegant_dining.png",
+      "description": "A sophisticated dining room with a grand dining table, elegant chairs, and a stunning chandelier perfect for formal entertaining.",
+      "cost": "Pkr18000",
+      "products": [41, 42, 43, 44],
+      "productDetails": [
+        {"name": "Mahogany Dining Table", "price": "Pkr3500"},
+        {"name": "Upholstered Dining Chairs (6)", "price": "Pkr2400"},
+        {"name": "Crystal Chandelier", "price": "Pkr1800"},
+        {"name": "Dining Room Buffet", "price": "Pkr2200"}
+      ],
+      "rating": 4.8,
+      "designer": "Michael Chen"
+    },
+    {
+      "id": 12,
+      "title": "Modern Open Dining Space",
+      "category": "dining_room",
+      "trend": "contemporary",
+      "image": "images/designs/modern_dining.png",
+      "description": "A contemporary dining area with clean lines, modern furniture, and an open layout that flows seamlessly with the living space.",
+      "cost": "Pkr12000",
+      "products": [45, 46, 47, 48],
+      "productDetails": [
+        {"name": "Glass Top Dining Table", "price": "Pkr1800"},
+        {"name": "Modern Dining Chairs (4)", "price": "Pkr1200"},
+        {"name": "Pendant Light Set", "price": "Pkr650"},
+        {"name": "Modern Sideboard", "price": "Pkr1400"}
+      ],
+      "rating": 4.6,
+      "designer": "Emma Davis"
+    },
+    {
+      "id": 13,
+      "title": "Productive Home Office",
+      "category": "home_office",
+      "trend": "contemporary",
+      "image": "images/designs/home_office.png",
+      "description": "A well-designed home office with ergonomic furniture, ample storage, and proper lighting for maximum productivity.",
+      "cost": "Pkr8500",
+      "products": [49, 50, 51, 52],
+      "productDetails": [
+        {"name": "Executive Desk", "price": "Pkr1200"},
+        {"name": "Ergonomic Office Chair", "price": "Pkr650"},
+        {"name": "Bookshelf Unit", "price": "Pkr800"},
+        {"name": "Desk Lamp", "price": "Pkr180"}
+      ],
+      "rating": 4.7,
+      "designer": "Robert Taylor"
+    },
+    {
+      "id": 14,
+      "title": "Creative Studio Space",
+      "category": "home_office",
+      "trend": "contemporary",
+      "image": "images/designs/creative_office.png",
+      "description": "An inspiring creative workspace with flexible furniture, artistic elements, and plenty of natural light.",
+      "cost": "Pkr6500",
+      "products": [53, 54, 55, 56],
+      "productDetails": [
+        {"name": "Adjustable Standing Desk", "price": "Pkr950"},
+        {"name": "Creative Storage Solutions", "price": "Pkr600"},
+        {"name": "Inspiration Board", "price": "Pkr150"},
+        {"name": "Task Lighting", "price": "Pkr220"}
+      ],
+      "rating": 4.5,
+      "designer": "Jennifer Lee"
+    },
+    {
+      "id": 15,
+      "title": "Cozy Reading Nook",
+      "category": "study_library",
+      "trend": "traditional",
+      "image": "images/designs/reading_nook.png",
+      "description": "A comfortable reading corner with built-in bookshelves, a cozy armchair, and warm lighting perfect for book lovers.",
+      "cost": "Pkr4500",
+      "products": [57, 58, 59, 60],
+      "productDetails": [
+        {"name": "Comfortable Reading Chair", "price": "Pkr850"},
+        {"name": "Built-in Bookshelf", "price": "Pkr1200"},
+        {"name": "Reading Floor Lamp", "price": "Pkr280"},
+        {"name": "Ottoman", "price": "Pkr320"}
+      ],
+      "rating": 4.8,
+      "designer": "Lisa Anderson"
+    },
+    {
+      "id": 16,
+      "title": "Grand Library Design",
+      "category": "study_library",
+      "trend": "traditional",
+      "image": "images/designs/grand_library.png",
+      "description": "An impressive library with floor-to-ceiling bookshelves, a classic desk, and traditional furnishings.",
+      "cost": "Pkr15000",
+      "products": [61, 62, 63, 64],
+      "productDetails": [
+        {"name": "Floor-to-Ceiling Bookshelves", "price": "Pkr4500"},
+        {"name": "Classic Wooden Desk", "price": "Pkr2200"},
+        {"name": "Leather Desk Chair", "price": "Pkr1100"},
+        {"name": "Traditional Table Lamps", "price": "Pkr450"}
+      ],
+      "rating": 4.9,
+      "designer": "David Wilson"
+    },
+    {
+      "id": 17,
+      "title": "Spacious Walk-in Closet",
+      "category": "closet_dressing",
+      "trend": "contemporary",
+      "image": "images/designs/walk_in_closet.png",
+      "description": "A luxurious walk-in closet with custom storage solutions, elegant lighting, and a central island.",
+      "cost": "Pkr12000",
+      "products": [65, 66, 67, 68],
+      "productDetails": [
+        {"name": "Custom Closet System", "price": "Pkr6500"},
+        {"name": "Central Island", "price": "Pkr2200"},
+        {"name": "LED Strip Lighting", "price": "Pkr380"},
+        {"name": "Full-Length Mirror", "price": "Pkr450"}
+      ],
+      "rating": 4.8,
+      "designer": "Sarah Johnson"
+    },
+    {
+      "id": 18,
+      "title": "Elegant Dressing Room",
+      "category": "closet_dressing",
+      "trend": "elegant",
+      "image": "images/designs/dressing_room.png",
+      "description": "A sophisticated dressing room with vanity area, organized storage, and glamorous lighting.",
+      "cost": "Pkr9500",
+      "products": [69, 70, 71, 72],
+      "productDetails": [
+        {"name": "Vanity Table with Mirror", "price": "Pkr1800"},
+        {"name": "Organized Wardrobe System", "price": "Pkr3200"},
+        {"name": "Hollywood Style Lighting", "price": "Pkr650"},
+        {"name": "Velvet Bench", "price": "Pkr480"}
+      ],
+      "rating": 4.7,
+      "designer": "Amanda White"
+    },
+    {
+      "id": 19,
+      "title": "Welcoming Entryway",
+      "category": "entryway_foyer",
+      "trend": "contemporary",
+      "image": "images/designs/modern_entryway.png",
+      "description": "A stylish entryway with storage solutions, welcoming lighting, and decorative elements that make a great first impression.",
+      "cost": "Pkr3500",
+      "products": [73, 74, 75, 76],
+      "productDetails": [
+        {"name": "Entry Console Table", "price": "Pkr650"},
+        {"name": "Wall-Mounted Coat Rack", "price": "Pkr180"},
+        {"name": "Entry Lighting Fixture", "price": "Pkr320"},
+        {"name": "Decorative Mirror", "price": "Pkr280"}
+      ],
+      "rating": 4.6,
+      "designer": "Emma Davis"
+    },
+    {
+      "id": 20,
+      "title": "Grand Foyer Design",
+      "category": "entryway_foyer",
+      "trend": "elegant",
+      "image": "images/designs/grand_foyer.png",
+      "description": "An impressive foyer with a grand staircase, elegant chandelier, and sophisticated furnishings.",
+      "cost": "Pkr8500",
+      "products": [77, 78, 79, 80],
+      "productDetails": [
+        {"name": "Grand Chandelier", "price": "Pkr2800"},
+        {"name": "Marble Console Table", "price": "Pkr1800"},
+        {"name": "Decorative Stair Railing", "price": "Pkr2200"},
+        {"name": "Accent Lighting", "price": "Pkr450"}
+      ],
+      "rating": 4.9,
+      "designer": "Michael Chen"
+    },
+    {
+      "id": 21,
+      "title": "Relaxing Outdoor Patio",
+      "category": "outdoor_patio",
+      "trend": "contemporary",
+      "image": "images/designs/outdoor_patio.png",
+      "description": "A comfortable outdoor living space with weather-resistant furniture, ambient lighting, and lush greenery.",
+      "cost": "Pkr7500",
+      "products": [81, 82, 83, 84],
+      "productDetails": [
+        {"name": "Outdoor Sectional Sofa", "price": "Pkr2200"},
+        {"name": "Weather-Resistant Coffee Table", "price": "Pkr650"},
+        {"name": "Outdoor String Lights", "price": "Pkr180"},
+        {"name": "Planters and Greenery", "price": "Pkr420"}
+      ],
+      "rating": 4.7,
+      "designer": "Jennifer Lee"
+    },
+    {
+      "id": 22,
+      "title": "Luxury Pool Area",
+      "category": "outdoor_patio",
+      "trend": "elegant",
+      "image": "images/designs/pool_area.png",
+      "description": "An elegant poolside area with premium outdoor furniture, sophisticated lighting, and resort-style amenities.",
+      "cost": "Pkr15000",
+      "products": [85, 86, 87, 88],
+      "productDetails": [
+        {"name": "Premium Lounge Chairs", "price": "Pkr3200"},
+        {"name": "Outdoor Dining Set", "price": "Pkr2800"},
+        {"name": "Pool Lighting System", "price": "Pkr1200"},
+        {"name": "Outdoor Bar Setup", "price": "Pkr2500"}
+      ],
+      "rating": 4.8,
+      "designer": "Mark Thompson"
+    },
+    {
+      "id": 23,
+      "title": "Cozy Guest Bedroom",
+      "category": "guest_room",
+      "trend": "traditional",
+      "image": "images/designs/guest_bedroom.png",
+      "description": "A welcoming guest bedroom with comfortable furnishings, warm colors, and thoughtful amenities for visitors.",
+      "cost": "Pkr6500",
+      "products": [89, 90, 91, 92],
+      "productDetails": [
+        {"name": "Queen Size Bed", "price": "Pkr1200"},
+        {"name": "Comfortable Mattress", "price": "Pkr800"},
+        {"name": "Guest Room Dresser", "price": "Pkr650"},
+        {"name": "Bedside Lighting", "price": "Pkr220"}
+      ],
+      "rating": 4.6,
+      "designer": "Lisa Anderson"
+    },
+    {
+      "id": 24,
+      "title": "Elegant Guest Suite",
+      "category": "guest_room",
+      "trend": "elegant",
+      "image": "images/designs/guest_suite.png",
+      "description": "A luxurious guest suite with premium furnishings, en-suite bathroom, and hotel-like amenities.",
+      "cost": "Pkr12000",
+      "products": [93, 94, 95, 96],
+      "productDetails": [
+        {"name": "Luxury Bed Frame", "price": "Pkr2200"},
+        {"name": "Premium Bedding Set", "price": "Pkr650"},
+        {"name": "Guest Seating Area", "price": "Pkr1800"},
+        {"name": "En-suite Bathroom Fixtures", "price": "Pkr3200"}
+      ],
+      "rating": 4.8,
+      "designer": "Christopher Brown"
+    },
+    {
+      "id": 25,
+      "title": "Functional Laundry Room",
+      "category": "laundry_utility",
+      "trend": "contemporary",
+      "image": "images/designs/laundry_room.png",
+      "description": "An efficient laundry room with smart storage solutions, modern appliances, and organized workspace.",
+      "cost": "Pkr4500",
+      "products": [97, 98, 99, 100],
+      "productDetails": [
+        {"name": "Washer and Dryer Set", "price": "Pkr2200"},
+        {"name": "Laundry Storage Cabinets", "price": "Pkr850"},
+        {"name": "Folding Counter", "price": "Pkr420"},
+        {"name": "Utility Sink", "price": "Pkr380"}
+      ],
+      "rating": 4.5,
+      "designer": "Robert Taylor"
+    }
+  ]
+}
+

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+   <link rel="icon" type="image/x-icon" href="./images/general/favicon.ico">
+</head>
+<body>
+
+
+
+   <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">HomeStyler</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon" style="filter:invert(1)"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto gap-lg-3 align-items-lg-center">
+                              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="designs.html">Designs</a></li>
+          <li class="nav-item"><a class="nav-link" href="designers.html">Designers</a></li>
+          <li class="nav-item"><a class="nav-link active" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <!-- Navbar Wishlist Button (opens modal) -->
+<li class="ms-lg-2">
+<button class="btn btn-brand btn-sm px-3" data-bs-toggle="modal" data-bs-target="#wishlistModal">
+  <i class="bi bi-heart-fill me-1"></i> Wishlist (<span id="wishlistCount">0</span>)
+</button>
+
+</li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Hero Section -->
+      <header class="hero about">
+    <div class="container hero-inner py-5">
+      <div class="col-lg-7">
+        <h1 class="display-1 mb-3" id="heroTitle">Our Products</h1>
+        <p class="lead lede mb-4" id="heroSub">
+Browse and filter through our premium collection
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <div class="container-fluid py-5">
+    <div class="row">
+      <!-- Sidebar -->
+      <div class="col-lg-3 mb-4">
+        <div class="sidebar">
+          <h5 class="mb-3">Categories</h5>
+          <ul class="list-unstyled" id="categoryList"></ul>
+          <hr>
+          <h5 class="mb-3">Price Range</h5>
+          <input type="range" class="form-range" min="0" max="10000" step="1000" id="priceRange" value="10000">
+          <p>Up to: PKR <span id="priceValue">10000</span></p>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="col-lg-9">
+        <!-- Filters -->
+        <div class="d-flex flex-wrap align-items-center mb-4 gap-2">
+          <input type="text" class="form-control w-auto flex-grow-1" id="searchInput" placeholder="Search products...">
+          <select class="form-select w-auto" id="ratingFilter">
+            <option value="">All Ratings</option>
+            <option value="5">5 Stars</option>
+            <option value="4">4 Stars & Up</option>
+            <option value="3">3 Stars & Up</option>
+          </select>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="row g-4" id="productsGrid"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="pt-5">
+    <div class="container">
+      <div class="row g-4">
+        <!-- About -->
+        <div class="col-md-4">
+          <h4 class="fw-bold">HomeStyler</h4>
+          <p class="small text-light">
+            HomeStyler is your one-stop hub for modern interior inspiration and lifestyle design.
+            Discover a wide range of interiors that combine timeless elegance with the latest global trends.
+            From minimalist apartments to luxurious penthouses, innovative layouts, hand-picked designers,
+            and premium products that suit every budget and lifestyle.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-2">
+          <h4 class="fw-bold mb-3">Quick Links</h4>
+          <ul class="list-unstyled small">
+            <li><a href="index.html" class="text-decoration-none">Home</a></li>
+            <li><a href="designs.html" class="text-decoration-none">Designs</a></li>
+            <li><a href="designers.html" class="text-decoration-none">Designers</a></li>
+            <li><a href="products.html" class="text-decoration-none">Products</a></li>
+            <li><a href="wishlist.html" class="text-decoration-none">Wishlist</a></li>
+            <li><a href="about.html" class="text-decoration-none">About Us</a></li>
+            <li><a href="contact.html" class="text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Categories -->
+        <div class="col-md-2">
+          <h4 class="fw-bold mb-3">Categories</h4>
+          <ul class="list-unstyled small">
+            <li><a href="designs.html#living_room" class="text-decoration-none">Living Room</a></li>
+            <li><a href="designs.html#kitchen" class="text-decoration-none">Kitchen</a></li>
+            <li><a href="designs.html#bedroom" class="text-decoration-none">Bedroom</a></li>
+            <li><a href="designs.html#bathroom" class="text-decoration-none">Bathroom</a></li>
+            <li><a href="designs.html#home_office" class="text-decoration-none">Home Office</a></li>
+            <li><a href="designs.html#outdoor_patio" class="text-decoration-none">Outdoor</a></li>
+                        <li><a href="designs.html#study_library" class="text-decoration-none">Library</a></li>
+
+          </ul>
+        </div>
+
+        <!-- Contact + Newsletter -->
+        <div class="col-md-4">
+          <h4 class="fw-bold mb-3">Stay Connected</h4>
+          <ul class="list-unstyled small mb-3">
+            <li><i class="bi bi-geo-alt-fill me-2"></i>123 Interior Lane, NY</li>
+            <li><i class="bi bi-telephone-fill me-2"></i>+1 (555) 123-4567</li>
+            <li><i class="bi bi-envelope-fill me-2"></i>info@homestyler.com</li>
+          </ul>
+          <form class="mb-3" onsubmit="alert('Thnaks for subscribing')">
+  <div class="input-group input-group-sm">
+    <input type="email" class="form-control" placeholder="Your email" required>
+    <button class="btn btn-brand" type="submit">Go</button>
+  </div>
+</form>          <div class="d-flex gap-3">
+            <a href="#"><i class="bi bi-facebook fs-5"></i></a>
+            <a href="#"><i class="bi bi-twitter fs-5"></i></a>
+            <a href="#"><i class="bi bi-instagram fs-5"></i></a>
+            <a href="#"><i class="bi bi-linkedin fs-5"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="border-secondary mt-4 mb-3">
+      <div class="d-flex flex-wrap justify-content-between align-items-center small text-light p-3">
+        <span class="mb-3 text-light">&copy; 2025 HomeStyler. All rights reserved.</span>
+        <div class="d-flex gap-3 mb-3">
+          <a href="privacypolicies.html" class="text-decoration-none text-light">Privacy Policy</a>
+          <a href="termsofservices.html" class="text-decoration-none text-light">Terms of Service</a>
+          <a href="cookies.html" class="text-decoration-none text-light">Cookies Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Detail Modal -->
+<div class="modal fade" id="detailModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content rounded-3 shadow">
+      <div class="modal-header">
+        <h5 class="modal-title">Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img id="modalImg" class="img-fluid rounded mb-3" alt="Detail Image">
+        <h5 class="modal-title"></h5>
+        <div id="modalDetails" class="lh-lg"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  <!-- Wishlist Modal -->
+<div class="modal fade" id="wishlistModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content rounded-3 shadow">
+      <div class="modal-header">
+        <h5 class="modal-title">My Wishlist</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <!-- ✅ Summary row -->
+        <div class="wishlist-summary mb-3 d-flex justify-content-between align-items-center">
+          <div>
+            <h6><span id="wishlistCount"></span> Items in Wishlist</h6>
+            <small>Total: <span id="wishlistValue" class="text-danger fw-bold">PKR 0</span></small>
+          </div>
+          <div>
+            <button class="btn btn-sm btn-success me-2">Share Wishlist</button>
+            <button class="btn btn-sm btn-warning">Request Quote for All</button>
+          </div>
+        </div>
+
+        <!-- ✅ Items will render here -->
+        <div id="wishlistItems" class="list-group"></div>
+      </div>
+
+      <div class="modal-footer">
+        <button id="clearWishlist" class="btn btn-outline-danger">Clear All</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // ====================================================
+// Render Products Page
+// ====================================================
+
+function formatCost(val) {
+  if (!val) return "";
+  const num = parseFloat((val + "").replace(/[^\d.]/g, "")) || 0;
+  return "PKR " + num.toLocaleString();
+}
+
+function buildDetails(obj) {
+  let html = "";
+  for (const [k, v] of Object.entries(obj)) {
+    if (["id", "image"].includes(k)) continue;
+    const label = k.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase());
+    html += `<div class="mb-2"><strong>${label}</strong>: ${v}</div>`;
+  }
+  return html || "<p class='text-muted'>No details available.</p>";
+}
+
+function renderProducts(data) {
+  const grid = document.getElementById("productsGrid");
+  if (!grid) return;
+  grid.innerHTML = "";
+
+  data.forEach(item => {
+    const col = document.createElement("div");
+    col.className = "col-md-6 col-lg-4";
+    col.dataset.type = "product";
+
+    const title = item.name || "Untitled";
+    const image = item.image || "images/placeholder.jpg";
+
+    col.innerHTML = `
+      <div class="card h-100 shadow-sm rounded-4 overflow-hidden">
+        <div class="position-relative">
+          <img src="${image}" class="card-img-top" alt="${title}">
+          <button class="wishlist-btn position-absolute top-0 end-0 m-2 rounded-circle shadow-sm">
+            <i class="bi bi-heart"></i>
+          </button>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">${title}</h5>
+          <p class="card-text text-secondary small">${item.description || ""}</p>
+          ${item.cost ? `<p class="fw-bold text-brand">${formatCost(item.cost)}</p>` : ""}
+          <button class="btn btn-sm btn-brand" 
+            data-bs-toggle="modal" data-bs-target="#detailModal"
+            data-title="${title}" data-image="${image}" 
+            data-details='${JSON.stringify(item)}'>
+            View Details
+          </button>
+        </div>
+      </div>
+    `;
+
+    grid.appendChild(col);
+
+    // Wishlist integration
+    const btn = col.querySelector(".wishlist-btn");
+    const payload = { type: "product", id: item.id, title, image, cost: item.cost };
+    btn.addEventListener("click", () => toggleWishlist(btn, payload));
+  });
+}
+
+// Fetch & render
+fetch("data/products.json")
+  .then(r => r.json())
+  .then(j => renderProducts(j.products));
+
+// Detail Modal handler
+document.getElementById("detailModal")
+  ?.addEventListener("show.bs.modal", ev => {
+    const btn = ev.relatedTarget;
+    if (!btn) return;
+    document.querySelector("#detailModal .modal-title").textContent = btn.dataset.title || "";
+    document.getElementById("modalImg").src = btn.dataset.image || "";
+    document.getElementById("modalDetails").innerHTML = buildDetails(JSON.parse(btn.dataset.details));
+  });
+
+  // Load sidebar categories dynamically
+fetch("data/sidebar.json")
+  .then(r => r.json())
+  .then(data => {
+    const list = document.getElementById("categoryList");
+    if (!list) return;
+    list.innerHTML = "";
+    data.designs.categories.forEach(cat => {
+      const li = document.createElement("li");
+      li.innerHTML = `<label><input type="checkbox" value="${cat}"> ${cat}</label>`;
+      list.appendChild(li);
+    });
+  });
+
+  // Load categories dynamically from products.json
+fetch("data/products.json")
+  .then(r => r.json())
+  .then(j => {
+    const categories = [...new Set(j.products.map(p => p.category))];
+    const list = document.getElementById("categoryList");
+    if (!list) return;
+    list.innerHTML = "";
+    categories.forEach(cat => {
+      const li = document.createElement("li");
+      li.innerHTML = `<label><input type="checkbox" value="${cat}"> ${cat}</label>`;
+      list.appendChild(li);
+    });
+  });
+
+  let allProducts = [];
+
+// Fetch once
+fetch("data/products.json")
+  .then(r => r.json())
+  .then(j => {
+    allProducts = j.products;
+    renderFilteredProducts();
+    loadCategories(allProducts);
+  });
+
+// Filtering logic
+function renderFilteredProducts() {
+  const search = document.getElementById("searchInput")?.value.toLowerCase() || "";
+  const rating = parseInt(document.getElementById("ratingFilter")?.value || 0);
+  const maxPrice = parseInt(document.getElementById("priceRange")?.value || 100000);
+  const checkedCats = [...document.querySelectorAll("#categoryList input:checked")].map(cb => cb.value);
+
+  const filtered = allProducts.filter(item => {
+    const matchesSearch = item.name?.toLowerCase().includes(search) || item.description?.toLowerCase().includes(search);
+    const matchesRating = !rating || (parseFloat(item.rating) >= rating);
+    const matchesPrice = !item.cost || parseFloat(item.cost) <= maxPrice;
+    const matchesCategory = checkedCats.length === 0 || checkedCats.includes(item.category);
+    return matchesSearch && matchesRating && matchesPrice && matchesCategory;
+  });
+
+  renderProducts(filtered);
+}
+
+// Sidebar categories
+function loadCategories(data) {
+  const categories = [...new Set(data.map(p => p.category))];
+  const list = document.getElementById("categoryList");
+  if (!list) return;
+  list.innerHTML = "";
+  categories.forEach(cat => {
+    const li = document.createElement("li");
+    li.innerHTML = `<label><input type="checkbox" value="${cat}"> ${cat}</label>`;
+    list.appendChild(li);
+  });
+
+  list.addEventListener("change", renderFilteredProducts);
+}
+
+// Hook up filters
+document.getElementById("searchInput")?.addEventListener("input", renderFilteredProducts);
+document.getElementById("ratingFilter")?.addEventListener("change", renderFilteredProducts);
+document.getElementById("priceRange")?.addEventListener("input", e => {
+  document.getElementById("priceValue").textContent = e.target.value;
+  renderFilteredProducts();
+});
+
+
+</script>
+ 
+
+    <script src="js/wishlist.js"></script>
+            <script src="js/animation.js"></script>
+
+</body>
+</html>

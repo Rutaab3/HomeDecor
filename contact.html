@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback | HomeStyler</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- AOS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <!-- GSAP -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+  <link rel="stylesheet" href="./css/styles.css">
+   <link rel="icon" type="image/x-icon" href="./images/general/favicon.ico">
+</head>
+<body>
+
+
+
+<!-- nav -->
+      <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">HomeStyler</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon" style="filter:invert(1)"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto gap-lg-3 align-items-lg-center">
+                              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+
+          <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="designs.html">Designs</a></li>
+          <li class="nav-item"><a class="nav-link" href="designers.html">Designers</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+          <li class="nav-item"><a class="nav-link acive" href="contact.html">Contact</a></li>
+        <!-- Navbar Wishlist Button (opens modal) -->
+<li class="ms-lg-2">
+<button class="btn btn-brand btn-sm px-3" data-bs-toggle="modal" data-bs-target="#wishlistModal">
+  <i class="bi bi-heart-fill me-1"></i> Wishlist (<span id="wishlistCount">0</span>)
+</button>
+
+</li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero  -->
+     <header class="hero about">
+    <div class="container hero-inner py-5">
+      <div class="col-lg-7">
+        <h1 class="display-1 mb-3" id="heroTitle">Contact</h1>
+        <p class="lead lede mb-4" id="heroSub">
+          Have Any Questions? We are here for you!
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container py-5 contact-layout">
+    <!-- Left: Contact Form -->
+    <form class="contact-form form">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" placeholder="Write your message..." required></textarea>
+      </div>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+
+    <!-- Right: Social Links Panel -->
+    <aside class="social-panel" style="height: 100%;">
+      <h2>Connect With Us</h2>
+      <ul>
+        <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i> Facebook</a></li>
+        <li><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter-x"></i> Twitter / X</a></li>
+        <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
+        <li><a href="https://linkedin.com" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+        <li><a href="https://github.com" target="_blank"><i class="bi bi-github"></i> GitHub</a></li>
+        <li><a href="https://youtube.com" target="_blank"><i class="bi bi-youtube"></i> YouTube</a></li>
+        <li><a href="https://wa.me/1234567890" target="_blank"><i class="bi bi-whatsapp"></i> WhatsApp</a></li>
+        <li><a href="mailto:someone@example.com"><i class="bi bi-envelope"></i> Email</a></li>
+      </ul>
+    </aside>
+  </main>
+
+    <!-- FOOTER -->
+  <footer class="pt-5">
+    <div class="container">
+      <div class="row g-4">
+        <!-- About -->
+        <div class="col-md-4">
+          <h4 class="fw-bold">HomeStyler</h4>
+          <p class="small text-light">
+            HomeStyler is your one-stop hub for modern interior inspiration and lifestyle design.
+            Discover a wide range of interiors that combine timeless elegance with the latest global trends.
+            From minimalist apartments to luxurious penthouses, innovative layouts, hand-picked designers,
+            and premium products that suit every budget and lifestyle.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-2">
+          <h4 class="fw-bold mb-3">Quick Links</h4>
+          <ul class="list-unstyled small">
+            <li><a href="index.html" class="text-decoration-none">Home</a></li>
+            <li><a href="designs.html" class="text-decoration-none">Designs</a></li>
+            <li><a href="designers.html" class="text-decoration-none">Designers</a></li>
+            <li><a href="products.html" class="text-decoration-none">Products</a></li>
+            <li><a href="wishlist.html" class="text-decoration-none">Wishlist</a></li>
+            <li><a href="about.html" class="text-decoration-none">About Us</a></li>
+            <li><a href="contact.html" class="text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Categories -->
+        <div class="col-md-2">
+          <h4 class="fw-bold mb-3">Categories</h4>
+          <ul class="list-unstyled small">
+            <li><a href="designs.html#living_room" class="text-decoration-none">Living Room</a></li>
+            <li><a href="designs.html#kitchen" class="text-decoration-none">Kitchen</a></li>
+            <li><a href="designs.html#bedroom" class="text-decoration-none">Bedroom</a></li>
+            <li><a href="designs.html#bathroom" class="text-decoration-none">Bathroom</a></li>
+            <li><a href="designs.html#home_office" class="text-decoration-none">Home Office</a></li>
+            <li><a href="designs.html#outdoor_patio" class="text-decoration-none">Outdoor</a></li>
+                        <li><a href="designs.html#study_library" class="text-decoration-none">Library</a></li>
+
+          </ul>
+        </div>
+
+        <!-- Contact + Newsletter -->
+        <div class="col-md-4">
+          <h4 class="fw-bold mb-3">Stay Connected</h4>
+          <ul class="list-unstyled small mb-3">
+            <li><i class="bi bi-geo-alt-fill me-2"></i>123 Interior Lane, NY</li>
+            <li><i class="bi bi-telephone-fill me-2"></i>+1 (555) 123-4567</li>
+            <li><i class="bi bi-envelope-fill me-2"></i>info@homestyler.com</li>
+          </ul>
+          <form class="mb-3" onsubmit="alert('Thnaks for subscribing')">
+  <div class="input-group input-group-sm">
+    <input type="email" class="form-control" placeholder="Your email" required>
+    <button class="btn btn-brand" type="submit">Go</button>
+  </div>
+</form>          <div class="d-flex gap-3">
+            <a href="#"><i class="bi bi-facebook fs-5"></i></a>
+            <a href="#"><i class="bi bi-twitter fs-5"></i></a>
+            <a href="#"><i class="bi bi-instagram fs-5"></i></a>
+            <a href="#"><i class="bi bi-linkedin fs-5"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="border-secondary mt-4 mb-3">
+      <div class="d-flex flex-wrap justify-content-between align-items-center small text-light p-3">
+        <span class="mb-3 text-light">&copy; 2025 HomeStyler. All rights reserved.</span>
+        <div class="d-flex gap-3 mb-3">
+          <a href="privacypolicies.html" class="text-decoration-none text-light">Privacy Policy</a>
+          <a href="termsofservices.html" class="text-decoration-none text-light">Terms of Service</a>
+          <a href="cookies.html" class="text-decoration-none text-light">Cookies Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Wishlist Modal -->
+<div class="modal fade" id="wishlistModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content rounded-3 shadow">
+      <div class="modal-header">
+        <h5 class="modal-title">My Wishlist</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <!-- ✅ Summary row -->
+        <div class="wishlist-summary mb-3 d-flex justify-content-between align-items-center">
+          <div>
+            <h6><span id="wishlistCount"></span> Items in Wishlist</h6>
+            <small>Total: <span id="wishlistValue" class="text-danger fw-bold">PKR 0</span></small>
+          </div>
+          <div>
+            <button class="btn btn-sm btn-success me-2">Share Wishlist</button>
+            <button class="btn btn-sm btn-warning">Request Quote for All</button>
+          </div>
+        </div>
+
+        <!-- ✅ Items will render here -->
+        <div id="wishlistItems" class="list-group"></div>
+      </div>
+
+      <div class="modal-footer">
+        <button id="clearWishlist" class="btn btn-outline-danger">Clear All</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Vendor JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script src="js/index.js"></script>
+    <script src="js/wishlist.js"></script>
+            <script src="js/animation.js"></script>
+
+</body>
+</html>

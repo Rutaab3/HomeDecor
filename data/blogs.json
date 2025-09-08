@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Top 10 Living Room Trends for 2025",
+      "author": "Hoomestyler Team",
+      "date": "2025-08-15",
+      "image": "images/blogs/1.png",
+      "excerpt": "From earthy neutrals to futuristic minimalism, discover the hottest living room styles shaping 2025.",
+      "content": "The living room remains the heart of the home, and 2025 trends emphasize both comfort and bold design. Neutral palettes like taupe and ivory dominate, accented with deep wine-red tones. Curved furniture, smart lighting, and sustainable materials are also rising in popularity. Expect modular sofas, multifunctional coffee tables, and biophilic elements such as indoor plants and natural textures. These trends blend modern aesthetics with timeless comfort, ensuring your living space feels both stylish and welcoming.",
+      "tags": ["Living Room", "Trends", "Interior Design"]
+    },
+    {
+      "id": 2,
+      "title": "How to Choose the Perfect Interior Designer",
+      "author": "Muhammad Bilal",
+      "date": "2025-08-22",
+      "image": "images/blogs/2.png",
+      "excerpt": "Finding the right designer can make or break your project. Here are 5 practical tips to guide your choice.",
+      "content": "Choosing the right interior designer is not just about browsing portfolios. Start by clarifying your design goals and budget. Next, evaluate designers based on their specialization — some excel at residential spaces, while others shine in commercial projects. Pay attention to client testimonials, communication style, and project timelines. A good designer will listen, adapt, and provide creative yet realistic solutions. Finally, request a detailed proposal to avoid hidden costs and misunderstandings.",
+      "tags": ["Designers", "Tips", "Guides"]
+    },
+    {
+      "id": 3,
+      "title": "Small Spaces, Big Impact: Smart Design Hacks",
+      "author": "Editorial Team",
+      "date": "2025-09-01",
+      "image": "images/blogs/3.png",
+      "excerpt": "Tiny apartments and studios don’t mean tiny style. Learn how to maximize space without sacrificing beauty.",
+      "content": "Living in a small apartment can feel restrictive, but smart design turns constraints into opportunities. Vertical storage, wall-mounted desks, and foldable furniture can save precious square footage. Mirrors and light colors create an illusion of openness, while sliding doors minimize wasted space. Adding multi-functional pieces, like a sofa-bed or dining table with hidden storage, further enhances practicality. These design hacks prove that small spaces can still make a big statement when done right.",
+      "tags": ["Small Spaces", "Hacks", "Apartments"]
+    }
+  ]
+}
